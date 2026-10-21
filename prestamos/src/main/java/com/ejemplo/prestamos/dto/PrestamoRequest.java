@@ -1,0 +1,13 @@
+package com.ejemplo.prestamos.dto;
+
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+
+import java.time.LocalDate;
+
+public record PrestamoRequest(
+        @NotNull Long herramientaId,
+        @NotBlank String responsable,
+        @NotNull LocalDate fechaPrestamo,
+        @NotNull Integer cantidad
+) {}
