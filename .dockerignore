@@ -1,0 +1,9 @@
+.git
+.gitignore
+.idea
+.gradle
+target
+*.md
+.mvn
+mvnw
+mvnw.cmd
